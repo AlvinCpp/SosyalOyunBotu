@@ -1,0 +1,28 @@
+{
+  "//1": "mrb alvin",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "alvin-gamebot-altyapi-v12",
+  "version": "0.0.1",
+  "description": "",
+  "main": "alvin.js",
+  "scripts": {
+    "start": "node alvin.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
