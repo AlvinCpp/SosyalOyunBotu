@@ -4,7 +4,7 @@ const fetch = require("node-fetch");
 const client = new Client();
 
 const prefix = "." 
-
+const token = "TOKEN"
 client.on('ready', async () => {
  client.user.setActivity(`${prefix}help ${prefix}invite`, { type:'PLAYING' })
 });
@@ -195,4 +195,4 @@ message.channel.send(new Discord.MessageEmbed().setColor("RANDOM").setDescriptio
     }
 });
 
-client.login("TOKEN").then(c => console.log(`${client.user.tag} olarak giriş yapıldı!`)).catch(err => console.error("Bota giriş yapılırken başarısız olundu!"));
+client.login(client.token).then(c => console.log(`${client.user.tag} olarak giriş yapıldı!`)).catch(err => console.error("Bota giriş yapılırken başarısız olundu!"));
